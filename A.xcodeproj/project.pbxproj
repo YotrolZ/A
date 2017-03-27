@@ -15,8 +15,8 @@
 		AE100B001E86740300428783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE100AFE1E86740300428783 /* LaunchScreen.storyboard */; };
 		AE100B0B1E86740300428783 /* ATests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE100B0A1E86740300428783 /* ATests.m */; };
 		AE100B161E86740300428783 /* AUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE100B151E86740300428783 /* AUITests.m */; };
-		AE100C531E8915A300428783 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE100C521E8915A300428783 /* AViewController.m */; };
 		AE100C571E89160200428783 /* Target_A.m in Sources */ = {isa = PBXBuildFile; fileRef = AE100C561E89160200428783 /* Target_A.m */; };
+		AE100C5A1E8916E200428783 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE100C591E8916E200428783 /* AViewController.m */; };
 		C1ADEC64E7557EF7CBC294EC /* libPods-A.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABCD677211285962A2450499 /* libPods-A.a */; };
 /* End PBXBuildFile section */
 
@@ -57,10 +57,10 @@
 		AE100B111E86740300428783 /* AUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE100B151E86740300428783 /* AUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AUITests.m; sourceTree = "<group>"; };
 		AE100B171E86740300428783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE100C511E8915A300428783 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		AE100C521E8915A300428783 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 		AE100C551E89160200428783 /* Target_A.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_A.h; sourceTree = "<group>"; };
 		AE100C561E89160200428783 /* Target_A.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_A.m; sourceTree = "<group>"; };
+		AE100C581E8916E200428783 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		AE100C591E8916E200428783 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,19 +174,11 @@
 		AE100C4F1E8915A300428783 /* A */ = {
 			isa = PBXGroup;
 			children = (
+				AE100C581E8916E200428783 /* AViewController.h */,
+				AE100C591E8916E200428783 /* AViewController.m */,
 				AE100C541E89160200428783 /* Targets */,
-				AE100C501E8915A300428783 /* AViewController */,
 			);
 			path = A;
-			sourceTree = "<group>";
-		};
-		AE100C501E8915A300428783 /* AViewController */ = {
-			isa = PBXGroup;
-			children = (
-				AE100C511E8915A300428783 /* AViewController.h */,
-				AE100C521E8915A300428783 /* AViewController.m */,
-			);
-			path = AViewController;
 			sourceTree = "<group>";
 		};
 		AE100C541E89160200428783 /* Targets */ = {
@@ -383,7 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE100AF81E86740300428783 /* ViewController.m in Sources */,
-				AE100C531E8915A300428783 /* AViewController.m in Sources */,
+				AE100C5A1E8916E200428783 /* AViewController.m in Sources */,
 				AE100C571E89160200428783 /* Target_A.m in Sources */,
 				AE100AF51E86740300428783 /* AppDelegate.m in Sources */,
 				AE100AF21E86740300428783 /* main.m in Sources */,
